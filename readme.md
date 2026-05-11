@@ -11,7 +11,6 @@
 7. pseudo terminals
 
 
-
 ## cons of this hackathon first approach 
 1. insecure remote code execution
 2. single server setup - doesn't scale
@@ -25,3 +24,10 @@
 2. long running processes
 3. shell access in browser
 4. file storage 
+
+
+## tech 
+1. node-pty // for terminal on backend
+2. xterm.js // for streaming pty from browser to server
+
+
